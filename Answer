@@ -1,0 +1,20 @@
+1. Meow. I am a cat. My name is Kurre.
+   Woof. I am a dog. My name is Vilma.
+   Meow. I am a cat. My name is Bamse.
+2. Polymorphism is an object-oriented concept that allows us to create versatile software designs that deals with multiple objects.
+3. Polymorphism allows a single variable to refer to the objects from different subclasses in the same inheritance hierarchy.
+   Polymorphism work in the above program by using an array to maintain the class roster combining objects from the allAnimals, Animal, Cat and Dog classes.
+   Exp- allAnimals = new Animal[3];
+    
+        allAnimals[0] = new Cat("Kurre");
+        allAnimals[1] = new Dog("Vilma");
+        allAnimals[2] = new Cat("Bamse");
+4. Because the program does not give a value for the object from Animal class.
+5. It will show that the program does not contains main method.
+6. Both Cat and Dog, in method Cat(String X), the instance of Cat stored in X and save in variable 'name' in Cat class. The value in 'name' will be print out in method introduceYourself()
+                   , in method Dog(String X), the instance of Dog stored in X and save in variable 'name' in Dog class. The value in 'name' will be print out in method introduceYourself()
+7. It will create an array for Animal class, after that it will insert a value for the variable allAnimals[] by creating the objects for Cat and Dog classes. Next, it will do a while loop,
+   by using the allAnimals.length to set a limit and it will print the method for each specific class in the loop.
+8. If allAnimals[i] refer to Cat, then the introduceYourself method of the Cat class is executed.
+   If allAnimals[i] refer to Dog, then the introduceYourself method of the Dog class is executed.
+9. i = i + 1 ; 
